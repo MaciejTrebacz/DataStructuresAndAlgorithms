@@ -55,6 +55,8 @@
     <Compile Include="HashTables\HashExercises.cs" />
     <Compile Include="HashTables\HashTablesIntroduction.cs" />
     <Compile Include="HashTables\Student.cs" />
+    <Compile Include="LinkedLists\LinkedLists.cs" />
+    <Compile Include="LinkedLists\Node.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SpaceComplexity\SpaceComplexity.cs" />
@@ -63,6 +65,8 @@
     <None Include="App.config" />
     <None Include="jsconfig1.json" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

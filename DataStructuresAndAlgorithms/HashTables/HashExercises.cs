@@ -8,19 +8,19 @@ public class HashExercises
 {
     public int[] Ints { get; set; } ={2,5,1,2,3,5,1,2,4};
 
-    public int FindFirstOccurring()
+    public int? FindFirstOccurring()
     {
         var founded = new Hashtable(); 
-        for (int i = 0; i < Ints.Length; i++)
+        foreach (var number in Ints)
         {
-            if (founded.ContainsKey(Ints[i]))
+            if (founded.ContainsKey(number))
             {
-                return Ints[i];
+                return number;
             }
-            founded[Ints[i]] = Ints[i];
+            founded[number] = number;
         }
 
-        return -1;
+        return null;
     }
 
 }

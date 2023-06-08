@@ -8,6 +8,7 @@ using DataStructuresAndAlgorithms.Arrays;
 using DataStructuresAndAlgorithms.BigO;
 using DataStructuresAndAlgorithms.CodingProblems;
 using DataStructuresAndAlgorithms.HashTables;
+using DataStructuresAndAlgorithms.LinkedLists;
 using DataStructuresAndAlgorithms.SpaceComplexity;
 
 internal class Program
@@ -92,8 +93,12 @@ internal class Program
         //hashIntro.Keys();
 
 
-        HashExercises hashExercises = new HashExercises();
-        Console.WriteLine(hashExercises.FindFirstOccurring());
+        //HashExercises hashExercises = new HashExercises();
+        //Console.WriteLine(hashExercises.FindFirstOccurring());
+
+        Node myNode = new Node();
+        myNode.ImplementingNodes();
+
 
          Console.ReadLine();
 
