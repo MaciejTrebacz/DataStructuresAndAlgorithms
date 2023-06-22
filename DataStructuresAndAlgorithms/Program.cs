@@ -96,10 +96,13 @@ internal class Program
         //HashExercises hashExercises = new HashExercises();
         //Console.WriteLine(hashExercises.FindFirstOccurring());
 
-        Node myNode = new Node();
-        myNode.ImplementingNodes();
-
-
+        LinkedList linkedList = new LinkedList(0);
+        linkedList.Append(1);
+        //linkedList.Append(2);
+        linkedList.Append(3);
+        linkedList.Append(4);
+        linkedList.Append(5);
+        linkedList.InsertImplemented(99,2);
          Console.ReadLine();
 
     }

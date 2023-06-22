@@ -1,6 +1,6 @@
 ﻿namespace DataStructuresAndAlgorithms.LinkedLists;
 
-public class LinkedLists
+public class LinkedLists2
 {
     public Node First { get; set; }
 
@@ -8,7 +8,7 @@ public class LinkedLists
     {
         // create the node
 
-        Node newNode = new Node();
+        Node newNode = new Node(10);
         // put the data
         newNode.Data = data;
         // put the old node in next
