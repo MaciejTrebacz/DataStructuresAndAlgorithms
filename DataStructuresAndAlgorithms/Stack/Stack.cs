@@ -25,7 +25,7 @@ public class Stack
         return StackArray[oldTop];
     }
 
-    public string Peek() // peek means access Top
+    public string Peek() // peek means access First
     {
         return StackArray[Top];
     }
