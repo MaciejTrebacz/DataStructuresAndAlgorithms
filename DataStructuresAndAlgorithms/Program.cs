@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DataStructuresAndAlgorithms.Arrays;
 using DataStructuresAndAlgorithms.BigO;
+using DataStructuresAndAlgorithms.BinarySearchTree;
 using DataStructuresAndAlgorithms.CodingProblems;
 using DataStructuresAndAlgorithms.HashTables;
 using DataStructuresAndAlgorithms.LinkedLists;
@@ -116,23 +117,29 @@ internal class Program
 
 
 
-        Stack stack = new Stack(10);
+        //Stack stack = new Stack(10);
 
-        for (int i = 0; i < 3; i++)
-        {
-            stack.Push("Squirtle");
-            stack.Push("Pikachu");
-            stack.Push("Bulbazaur");
-        }
+        //for (int i = 0; i < 3; i++)
+        //{
+        //    stack.Push("Squirtle");
+        //    stack.Push("Pikachu");
+        //    stack.Push("Bulbazaur");
+        //}
 
-        stack.Pop();
-        stack.Peek();
+        //stack.Pop();
+        //stack.Peek();
 
-        while (!stack.IsEmpty())
-        {
-            var value = stack.Pop();
-            Console.WriteLine(value);
-        }
+        //while (!stack.IsEmpty())
+        //{
+        //    var value = stack.Pop();
+        //    Console.WriteLine(value);
+        //}
+
+        BinarySearchTree bst = new BinarySearchTree();
+        bst.Insert(100,"Jim" );
+        bst.Insert(200,"Micheal" );
+        bst.Insert(300,"Pam" );
+        bst.Insert(10,"Kevin" );
 
 
         Console.ReadLine();

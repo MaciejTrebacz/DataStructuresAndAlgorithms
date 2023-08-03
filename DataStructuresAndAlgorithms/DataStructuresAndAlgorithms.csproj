@@ -51,6 +51,8 @@
     <Compile Include="BigO\O%281%29.cs" />
     <Compile Include="BigO\O%28n%29.cs" />
     <Compile Include="BigO\O%28n^2%29.cs" />
+    <Compile Include="BinarySearchTree\BinarySearchTree.cs" />
+    <Compile Include="BinarySearchTree\TreeNode.cs" />
     <Compile Include="CodingProblems\InterviewQuestion.cs" />
     <Compile Include="HashTables\HashExercises.cs" />
     <Compile Include="HashTables\HashTablesIntroduction.cs" />
@@ -61,6 +63,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Queue\Queue.cs" />
     <Compile Include="Queue\QueueLL.cs" />
+    <Compile Include="Queue\QueueUsingStack.cs" />
     <Compile Include="SpaceComplexity\SpaceComplexity.cs" />
     <Compile Include="Stack\Stack.cs" />
     <Compile Include="Stack\StackArray.cs" />
